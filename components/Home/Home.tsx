@@ -1,12 +1,7 @@
 import React from 'react';
-import ThemeToggler from '../Helper/ThemeToggler';
 
 const Home = () => {
-  return (
-    <div className="overflow-hidden">
-        <ThemeToggler/> 
-    </div>
-  )
+  return <div className="overflow-hidden"></div>;
 };
 
 export default Home;

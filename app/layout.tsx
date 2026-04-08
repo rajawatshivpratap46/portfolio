@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Provider from "@/components/Hoc/Provider";
+import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
+import Home from "@/components/Home/Home";
+
 
 
 const font =Inter({
@@ -25,6 +28,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className= {`${font.className} antialiased`}>
         <Provider>
+          <ResponsiveNav/>
           {children}
         </Provider>
       </body>
