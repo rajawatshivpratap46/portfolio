@@ -5,6 +5,7 @@ import {
   Coffee,
   Cpu,
   Database,
+  FileCode,
   GitBranch,
   Globe,
   GraduationCap,
@@ -24,8 +25,8 @@ import { FaGithub, FaLinkedin, FaLinkedinIn, FaTwitter } from "react-icons/fa6";
 export const stats = [
   { label: "Years Experience", value: "0.5+" },
   { label: "Projects Completed", value: "5+" },
-  { label: "Happy Clients", value: "0+" },
-  { label: "Students Taught", value: "1000+" },
+  { label: "Coding Problems Solved", value: "500+" },
+  { label: "Certifications", value: "6+" },
 ];
 
 export const highlights = [
@@ -217,8 +218,8 @@ export const skillCategories = [
       { name: "Next.js", icon: Globe },
       { name: "TypeScript", icon: Terminal },
       { name: "Tailwind CSS", icon: Palette },
-      { name: "React Native", icon: Smartphone },
-      { name: "Vue.js", icon: Layout },
+      { name: "Javascript", icon: FileCode },
+      { name: "Redux", icon: Layers },
     ],
   },
   {
