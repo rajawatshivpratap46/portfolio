@@ -4,6 +4,7 @@ import "./globals.css";
 import Provider from "@/components/Hoc/Provider";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 import Home from "@/components/Home/Home";
+import Footer from "@/components/Home/Footer/Footer";
 
 
 
@@ -30,6 +31,7 @@ export default function RootLayout({
         <Provider>
           <ResponsiveNav/>
           {children}
+          <Footer/>
         </Provider>
       </body>
     </html>
