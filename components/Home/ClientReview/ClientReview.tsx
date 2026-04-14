@@ -31,9 +31,9 @@ const ClientReview = () => {
     <div className="py-20 bg-gray-100 dark:bg-gray-900">
         <div className="w-[80%] mx-auto">
             <SectionHeading
-               title_1="Our Client"
-               title_2="Review"
-               description="Checkout our client reviews"
+               title_1="Achievement"
+               title_2="& Highlights"
+               description="Key milestones in my coding journey"
             />
             <div className="mt-14">
                 <Carousel

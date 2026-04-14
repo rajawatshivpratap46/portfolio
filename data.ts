@@ -36,38 +36,39 @@ export const highlights = [
   { icon: Coffee, text: "Powered by coffee & curiosity" },
 ];
 
+
 export const userReviewData = [
   {
     id: 1,
-    name: "Shivkumar Rajawat",
-    profession: "Real Estate Agent",
+    name: "Competitive Programming",
+    profession: "Problem Solving & Algorithms",
     userImage: "/images/u1.jpg",
     review:
-      "A wonderful experience! The platform made it easy to find exactly what I needed. lorem ipsum dolor sit ame",
+      "Solved 500+ coding problems across platforms like LeetCode, CodeChef, and HackerRank. Developed strong expertise in Data Structures, Algorithms, and problem-solving techniques.",
   },
   {
     id: 2,
-    name: "Mike Smith",
-    profession: "Business Owner",
+    name: "TCS CodeVita Achievement",
+    profession: "Programming Competition",
     userImage: "/images/u2.jpg",
     review:
-      "Great selection of properties and seamless process. Highly recommended for anyone looking to invest.",
+      "Secured All India Rank 3986 in TCS CodeVita Season 13 Round 1 (2025), demonstrating strong logical thinking and competitive programming ability.",
   },
   {
     id: 3,
-    name: "Alex Johnson",
-    profession: "Web developer",
+    name: "Oracle Cloud Certification",
+    profession: "AI & Cloud Technologies",
     userImage: "/images/u3.jpg",
     review:
-      "The website helped me find my dream home quickly and hassle-free. Exceptional service!",
+      "Earned the Oracle Cloud Infrastructure 2025 AI Foundations Associate certification, strengthening knowledge in artificial intelligence concepts and cloud technologies.",
   },
   {
     id: 4,
-    name: "Emily Clark",
-    profession: "Interior Designer",
+    name: "GitHub & Development",
+    profession: "Open Source & Projects",
     userImage: "/images/u4.jpg",
     review:
-      "Fantastic range of properties with clear details. The best platform for home and design inspiration!",
+      "Built multiple full-stack MERN and AI projects including Doctor Appointment Booking System, Medicinal Herbal AI Chatbot, and E-commerce platform, showcasing practical development skills on GitHub.",
   },
 ];
 
@@ -101,48 +102,63 @@ export const socialLinks = [
 export const experiences = [
   {
     type: "work",
-    title: "MERN-Stack Developer",
-    company: "TechCorp Inc.",
-    period: "2026 - Present",
+    title: "Web Development Intern",
+    company: "Zaalima Development Pvt. Ltd.",
+    period: "Mar 2026 - Jun 2026",
     description:
-      "Leading development of enterprise SaaS products. Mentoring junior developers and implementing best practices.",
-    technologies: ["React", "Node.js", "AWS", "TypeScript"],
+      "Selected for a remote Web Development Internship at Zaalima Development Pvt. Ltd. Worked on real-world web development projects, contributing to frontend and backend features while following professional development practices and deadlines.",
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Git"],
   },
   {
     type: "work",
-    title: "",
-    company: "",
-    period: "",
+    title: "Web Development Intern",
+    company: "Saanvi Research Hub",
+    period: "Jul 2024 - Sep 2024",
     description:
-      "Built and maintained multiple web applications. Collaborated with design team to implement responsive UIs.",
-    technologies: ["Vue.js", "Python", "PostgreSQL", "Docker"],
-  },
-  {
-    type: "Work",
-    title: "",
-    company: "",
-    period: "",
-    description:
-      "Specialized in distributed systems and machine learning. Thesis on scalable microservices architecture.",
-    technologies: ["Research", "AI/ML", "Distributed Systems"],
+      "Worked as a Web Development Intern where I developed responsive websites and web applications. Implemented modern UI components and collaborated with team members to build interactive client websites.",
+    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "MySQL"],
   },
   {
     type: "work",
-    title: "Frontend Developer",
-    company: "Saanvi Innovations",
-    period: "July 2024-Sep 2024",
+    title: "Full Stack MERN Developer (Projects)",
+    company: "Personal & Academic Projects",
+    period: "2023 - Present",
     description:
-      "Developed client websites and e-commerce platforms. Gained experience in agile methodologies.",
-    technologies: ["JavaScript", "PHP", "MySQL", "WordPress"],
+      "Developed multiple full-stack web applications using the MERN stack including a Doctor Appointment Booking System, E-commerce platform, and AI-based chatbots. Implemented authentication, REST APIs, database integration, and responsive UI design.",
+    technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "REST API"],
+  },
+  {
+    type: "work",
+    title: "AI & Machine Learning Developer (Projects)",
+    company: "Academic Projects",
+    period: "2024 - Present",
+    description:
+      "Built AI-based applications including Medicinal Herbal AI Chatbot and LLM-based Medical Chatbot using NLP and machine learning techniques. Implemented intelligent query processing and conversational AI systems.",
+    technologies: ["Python", "Machine Learning", "NLP", "AI Chatbots", "LangChain"],
+  },
+  {
+    type: "achievement",
+    title: "Competitive Programming Achievements",
+    company: "LeetCode, CodeChef, HackerRank",
+    period: "2023 - Present",
+    description:
+      "Solved 500+ coding problems across multiple platforms and achieved 1-Star rating on CodeChef. Secured All India Rank 3986 in TCS CodeVita Season 13 Round 1 (2025) and completed a 45-day coding challenge organized by Amity Coding Club.",
+    technologies: ["C++", "Data Structures", "Algorithms", "Problem Solving"],
   },
   {
     type: "education",
-    title: "Bachelor of Computer Science",
-    company: "Amity University",
+    title: "B.Tech – Computer Science Engineering (AI & ML)",
+    company: "Amity University, Madhya Pradesh",
     period: "2022 - 2026",
     description:
-      "Strong foundation in algorithms, data structures, and software engineering principles.",
-    technologies: ["Computer Science", "Mathematics", "Problem Solving"],
+      "Pursuing B.Tech in Computer Science Engineering with specialization in Artificial Intelligence and Machine Learning. Developed strong foundation in Data Structures, Algorithms, OOP, Database Systems, and Software Engineering.",
+    technologies: [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Data Structures",
+      "DBMS",
+      "Operating Systems",
+    ],
   },
 ];
 
@@ -155,58 +171,58 @@ export const footerSocialLinks = [
 
 export const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "Medical AI Chatbot with LLMs",
     description:
-      "A full-stack e-commerce solution with real-time inventory, payment processing, and admin dashboard.",
+      "An AI-powered medical chatbot that uses Large Language Models with LangChain and Pinecone to answer health-related queries. The system retrieves medical knowledge from a vector database and provides intelligent responses through a Flask-based API deployed on AWS.",
     image: "/images/p1.jpg",
-    techStack: ["Next.js", "TypeScript", "Stripe", "MongoDB"],
+    techStack: ["Python", "LangChain", "Pinecone", "Flask", "AWS", "LLMs"],
     demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    githubUrl: "github.com/rajawatshivpratap46/Build-a-Complete-Medical-Chatbot-with-LLMs-LangChain-Pinecone-Flask-AWS",
   },
   {
-    title: "Task Management App",
+    title: "Medicinal Herbal AI Chatbot",
     description:
-      "Collaborative project management tool with real-time updates, Kanban boards, and team analytics.",
+      "An AI chatbot that recommends medicinal herbs based on user symptoms. It provides information about herbal remedies, benefits, and usage using AI-driven responses and a knowledge-based system.",
     image: "/images/p2.jpg",
-    techStack: ["React", "Node.js", "Socket.io", "PostgreSQL"],
+    techStack: ["Python", "Machine Learning", "Flask", "AI Chatbot", "NLP"],
     demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/rajawatshivpratap46/Medicinal_herbal_chatbot",
   },
   {
-    title: "AI Content Generator",
+    title: "Movie Recommender System",
     description:
-      "GPT-powered content creation platform for marketers with templates and workflow automation.",
+      "A movie recommendation system that suggests movies based on user preferences using machine learning techniques like cosine similarity and collaborative filtering with a user-friendly interface.",
     image: "/images/p3.jpg",
-    techStack: ["React", "Python", "OpenAI", "FastAPI"],
+    techStack: ["Python", "Machine Learning", "Pandas", "Scikit-learn", "Streamlit"],
     demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/rajawatshivpratap46/Movie-Recommender-System",
   },
   {
-    title: "Real Estate Platform",
+    title: "Doctor Appointment Booking System",
     description:
-      "Property listing platform with virtual tours, mortgage calculator, and agent booking system.",
+      "A web application that allows patients to book appointments with doctors online. It includes doctor listings, scheduling, patient management, and secure database storage.",
     image: "/images/p4.jpg",
-    techStack: ["Vue.js", "Node.js", "MongoDB", "Maps API"],
+    techStack: ["React", "Node.js", "MongoDB", "Express", "REST API"],
     demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/rajawatshivpratap46/prescripto",
   },
   {
-    title: "Fitness Tracker",
+    title: "Real-Time Chatting Application",
     description:
-      "Cross-platform mobile app for workout tracking, nutrition logging, and progress analytics.",
+      "A real-time messaging application that allows users to chat instantly. It supports live messaging, authentication, and socket-based communication for seamless user interaction.",
     image: "/images/p5.jpg",
-    techStack: ["React Native", "Firebase", "Node.js", "Charts"],
+    techStack: ["React", "Node.js", "MongoDB", "Socket.io", "Express"],
     demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/rajawatshivpratap46/Chatting-Application",
   },
   {
-    title: "Learning Management System",
+    title: "Personal Portfolio Website",
     description:
-      "Educational platform with video streaming, quizzes, progress tracking, and certificates.",
+      "A modern developer portfolio website showcasing projects, skills, and experience with responsive design, smooth animations, and project showcases.",
     image: "/images/p6.jpg",
-    techStack: ["Next.js", "Prisma", "AWS S3", "Stripe"],
+    techStack: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
     demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/rajawatshivpratap46/portfolio",
   },
 ];
 
