@@ -9,6 +9,12 @@ pipeline {
             }
         }
 
+        stage('Docker Login') {
+            steps {
+                bat 'docker login -u 12shiv123 -p 180804'
+            }
+        }
+
         stage('Push Docker Image') {
             steps {
                 bat 'docker push 12shiv123/my-portfolio:latest'
