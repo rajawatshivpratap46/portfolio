@@ -5,19 +5,19 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t 12shiv123/my-portfolio:latest .'
+                bat 'docker build -t 12shiv123/my-portfolio:latest .'
             }
         }
 
         stage('Push Docker Image') {
             steps {
-                sh 'docker push 12shiv123/my-portfolio:latest'
+                bat 'docker push 12shiv123/my-portfolio:latest'
             }
         }
 
         stage('Deploy Container') {
             steps {
-                sh '''
+                bat '''
                 docker stop portfolio || true
                 docker rm portfolio || true
                 docker run -d -p 3000:3000 --name portfolio 12shiv123/my-portfolio
