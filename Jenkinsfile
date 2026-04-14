@@ -3,12 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Clone Repository') {
-            steps {
-                git 'https://github.com/rajawatshivpratap46/portfolio.git'
-            }
-        }
-
         stage('Build Docker Image') {
             steps {
                 sh 'docker build -t 12shiv123/my-portfolio:latest .'
