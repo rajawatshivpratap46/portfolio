@@ -18,8 +18,8 @@ pipeline {
         stage('Deploy Container') {
             steps {
                 bat '''
-                docker stop portfolio || true
-                docker rm portfolio || true
+                docker stop portfolio || echo container not running
+                docker rm portfolio || echo container not exist
                 docker run -d -p 3000:3000 --name portfolio 12shiv123/my-portfolio
                 '''
             }
