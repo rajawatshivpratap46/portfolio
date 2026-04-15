@@ -3,6 +3,12 @@ pipeline {
 
     stages {
 
+        stage('Checkout Code') {
+            steps {
+                git 'https://github.com/rajawatshivpratap46/portfolio.git'
+            }
+        }
+
         stage('Build Docker Image') {
             steps {
                 bat 'docker build -t 12shiv123/my-portfolio:latest .'
@@ -11,7 +17,13 @@ pipeline {
 
         stage('Docker Login') {
             steps {
-                bat 'docker login -u 12shiv123 -p 180804'
+                withCredentials([usernamePassword(
+                credentialsId: 'dockerhub',
+                usernameVariable: 'DOCKER_USER',
+                passwordVariable: 'DOCKER_PASS')]) {
+
+                bat 'docker login -u %DOCKER_USER% -p %DOCKER_PASS%'
+                }
             }
         }
 
@@ -21,14 +33,5 @@ pipeline {
             }
         }
 
-        stage('Deploy Container') {
-            steps {
-                bat '''
-                docker stop portfolio || echo container not running
-                docker rm portfolio || echo container not exist
-                docker run -d -p 3000:3000 --name portfolio 12shiv123/my-portfolio
-                '''
-            }
-        }
     }
 }
