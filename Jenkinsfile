@@ -3,12 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout Code') {
-            steps {
-                git 'https://github.com/rajawatshivpratap46/portfolio.git'
-            }
-        }
-
         stage('Build Docker Image') {
             steps {
                 bat 'docker build -t 12shiv123/my-portfolio:latest .'
@@ -22,7 +16,7 @@ pipeline {
                 usernameVariable: 'DOCKER_USER',
                 passwordVariable: 'DOCKER_PASS')]) {
 
-                bat 'docker login -u %DOCKER_USER% -p %DOCKER_PASS%'
+                    bat 'echo %DOCKER_PASS% | docker login -u %DOCKER_USER% --password-stdin'
                 }
             }
         }
