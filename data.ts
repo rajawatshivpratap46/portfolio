@@ -175,7 +175,7 @@ export const projects = [
     description:
       "An AI-powered medical chatbot that uses Large Language Models with LangChain and Pinecone to answer health-related queries. The system retrieves medical knowledge from a vector database and provides intelligent responses through a Flask-based API deployed on AWS.",
     image: "/images/p1.jpg",
-    techStack: ["Python", "LangChain", "Pinecone", "Flask", "AWS", "LLMs"],
+    techStack: ["Python", "LangChain", "Pinecone", "Flask", "AWS", "LLMs","Documentation"],
     demoUrl: "https://example.com",
     githubUrl: "github.com/rajawatshivpratap46/Build-a-Complete-Medical-Chatbot-with-LLMs-LangChain-Pinecone-Flask-AWS",
   },
@@ -184,7 +184,7 @@ export const projects = [
     description:
       "An AI chatbot that recommends medicinal herbs based on user symptoms. It provides information about herbal remedies, benefits, and usage using AI-driven responses and a knowledge-based system.",
     image: "/images/p2.jpg",
-    techStack: ["Python", "Machine Learning", "Flask", "AI Chatbot", "NLP"],
+    techStack: ["Python", "Machine Learning", "Flask", "AI Chatbot", "NLP","Documentation"],
     demoUrl: "https://example.com",
     githubUrl: "https://github.com/rajawatshivpratap46/Medicinal_herbal_chatbot",
   },
@@ -193,7 +193,7 @@ export const projects = [
     description:
       "A movie recommendation system that suggests movies based on user preferences using machine learning techniques like cosine similarity and collaborative filtering with a user-friendly interface.",
     image: "/images/p3.jpg",
-    techStack: ["Python", "Machine Learning", "Pandas", "Scikit-learn", "Streamlit"],
+    techStack: ["Python", "Machine Learning", "Pandas", "Scikit-learn", "Streamlit","Documentation"],
     demoUrl: "https://example.com",
     githubUrl: "https://github.com/rajawatshivpratap46/Movie-Recommender-System",
   },
@@ -202,8 +202,8 @@ export const projects = [
     description:
       "A web application that allows patients to book appointments with doctors online. It includes doctor listings, scheduling, patient management, and secure database storage.",
     image: "/images/p4.jpg",
-    techStack: ["React", "Node.js", "MongoDB", "Express", "REST API"],
-    demoUrl: "https://example.com",
+    techStack: ["React", "Node.js", "MongoDB", "Express", "REST API","Documentation"],
+    demoUrl: "https://prescripto-ashen.vercel.app/",
     githubUrl: "https://github.com/rajawatshivpratap46/prescripto",
   },
   {
@@ -211,8 +211,8 @@ export const projects = [
     description:
       "A real-time messaging application that allows users to chat instantly. It supports live messaging, authentication, and socket-based communication for seamless user interaction.",
     image: "/images/p5.jpg",
-    techStack: ["React", "Node.js", "MongoDB", "Socket.io", "Express"],
-    demoUrl: "https://example.com",
+    techStack: ["React", "Node.js", "MongoDB", "Socket.io", "Express","Documentation"],
+    demoUrl: "https://chatting-application-frontend-ebon.vercel.app",
     githubUrl: "https://github.com/rajawatshivpratap46/Chatting-Application",
   },
   {
@@ -221,7 +221,7 @@ export const projects = [
       "A modern developer portfolio website showcasing projects, skills, and experience with responsive design, smooth animations, and project showcases.",
     image: "/images/p6.jpg",
     techStack: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
-    demoUrl: "https://example.com",
+    demoUrl: "https://portfolio-wzep-a4b3u55yw-shivkumar-sigh-rajawats-projects.vercel.app/#_",
     githubUrl: "https://github.com/rajawatshivpratap46/portfolio",
   },
 ];
