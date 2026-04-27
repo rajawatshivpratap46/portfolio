@@ -201,7 +201,7 @@ export const projects = [
     title: "Doctor Appointment Booking System",
     description:
       "A web application that allows patients to book appointments with doctors online. It includes doctor listings, scheduling, patient management, and secure database storage.",
-    image: "/images/p4.jpg",
+    image: "/images/p4.png",
     techStack: ["React", "Node.js", "MongoDB", "Express", "REST API","Documentation"],
     demoUrl: "https://prescripto-ashen.vercel.app/",
     githubUrl: "https://github.com/rajawatshivpratap46/prescripto",
@@ -210,7 +210,7 @@ export const projects = [
     title: "Real-Time Chatting Application",
     description:
       "A real-time messaging application that allows users to chat instantly. It supports live messaging, authentication, and socket-based communication for seamless user interaction.",
-    image: "/images/p5.jpg",
+    image: "/images/p5.png",
     techStack: ["React", "Node.js", "MongoDB", "Socket.io", "Express","Documentation"],
     demoUrl: "https://chatting-application-frontend-ebon.vercel.app",
     githubUrl: "https://github.com/rajawatshivpratap46/Chatting-Application",
@@ -219,7 +219,7 @@ export const projects = [
     title: "Personal Portfolio Website",
     description:
       "A modern developer portfolio website showcasing projects, skills, and experience with responsive design, smooth animations, and project showcases.",
-    image: "/images/p6.jpg",
+    image: "/images/p6.png",
     techStack: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
     demoUrl: "https://portfolio-wzep-a4b3u55yw-shivkumar-sigh-rajawats-projects.vercel.app/",
     githubUrl: "https://github.com/rajawatshivpratap46/portfolio",
