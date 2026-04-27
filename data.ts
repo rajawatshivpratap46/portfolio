@@ -42,7 +42,7 @@ export const userReviewData = [
     id: 1,
     name: "Competitive Programming",
     profession: "Problem Solving & Algorithms",
-    userImage: "/images/u1.jpg",
+    userImage: "/images/u1.jpeg",
     review:
       "Solved 500+ coding problems across platforms like LeetCode, CodeChef, and HackerRank. Developed strong expertise in Data Structures, Algorithms, and problem-solving techniques.",
   },
@@ -58,7 +58,7 @@ export const userReviewData = [
     id: 3,
     name: "Oracle Cloud Certification",
     profession: "AI & Cloud Technologies",
-    userImage: "/images/u3.jpg",
+    userImage: "/images/u3.png",
     review:
       "Earned the Oracle Cloud Infrastructure 2025 AI Foundations Associate certification, strengthening knowledge in artificial intelligence concepts and cloud technologies.",
   },
@@ -66,7 +66,7 @@ export const userReviewData = [
     id: 4,
     name: "GitHub & Development",
     profession: "Open Source & Projects",
-    userImage: "/images/u4.jpg",
+    userImage: "/images/u4.png",
     review:
       "Built multiple full-stack MERN and AI projects including Doctor Appointment Booking System, Medicinal Herbal AI Chatbot, and E-commerce platform, showcasing practical development skills on GitHub.",
   },
@@ -210,7 +210,7 @@ export const projects = [
     title: "Real-Time Chatting Application",
     description:
       "A real-time messaging application that allows users to chat instantly. It supports live messaging, authentication, and socket-based communication for seamless user interaction.",
-    image: "/images/p5.png",
+    image: "/images/p5.jpg",
     techStack: ["React", "Node.js", "MongoDB", "Socket.io", "Express","Documentation"],
     demoUrl: "https://chatting-application-frontend-ebon.vercel.app",
     githubUrl: "https://github.com/rajawatshivpratap46/Chatting-Application",
