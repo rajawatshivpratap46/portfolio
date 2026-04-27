@@ -221,7 +221,7 @@ export const projects = [
       "A modern developer portfolio website showcasing projects, skills, and experience with responsive design, smooth animations, and project showcases.",
     image: "/images/p6.jpg",
     techStack: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
-    demoUrl: "https://portfolio-wzep-a4b3u55yw-shivkumar-sigh-rajawats-projects.vercel.app/#_",
+    demoUrl: "https://portfolio-wzep-a4b3u55yw-shivkumar-sigh-rajawats-projects.vercel.app/",
     githubUrl: "https://github.com/rajawatshivpratap46/portfolio",
   },
 ];
