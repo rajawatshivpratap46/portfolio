@@ -100,6 +100,24 @@ export const socialLinks = [
 ];
 
 export const experiences = [
+    {
+    type: "work",
+    title: "Full Stack Developer Intern",
+    company: "Avijo Healthcare",
+    period: "Aug 2026 - Present",
+    description:
+      "Working as a Full Stack Developer Intern at Avijo Healthcare, contributing to healthcare web application development across frontend and backend systems. Working with React.js, Tailwind CSS, Node.js, Express.js, and REST APIs while collaborating with team members through Git-based workflows, implementing UI improvements, integrating APIs, and supporting application performance optimization.",
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "Git",
+      "MongoDB",
+    ],
+  },
   {
     type: "work",
     title: "Web Development Intern",
